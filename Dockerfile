@@ -1,4 +1,4 @@
 FROM ubuntu
-RUN sudo apt-get update
-RUN sudo apt-get install apache2 -y
-RUN sudo service apache2 restart
+RUN apt-get update
+RUN apt-get install apache2 -y
+RUN service apache2 restart
